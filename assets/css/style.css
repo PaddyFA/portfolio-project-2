@@ -12,16 +12,47 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    margin: 10px;
 }
 
 
 
 
 h1 {
-    color: antiquewhite;
+    color: whitesmoke;
     font-family: Dancing Script, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
     font-size: xxx-large;
    
 }
+
+.take-quiz-btn-container {
+    height: 200px;
+    position: relative;
+}
+
+.take-quiz-btn {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke; 
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #8A2BE2;
+}
+
+.take-quiz-btn:hover {
+    background-color: #8A2BE2; 
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+}
+
