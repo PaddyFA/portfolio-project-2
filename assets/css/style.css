@@ -6,7 +6,7 @@
     border: none;
 }
 
-body {
+.index-background {
     background-image: url('../images/background-image-index.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -56,3 +56,17 @@ h1 {
     color: whitesmoke;
 }
 
+/* questions.html styling */
+
+.questions-background {
+
+    background-image: url('../images/questions-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+
+/* Media queries */
